@@ -1,25 +1,27 @@
 .nav {
     color: 000E47;
-    ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        color: EBF3F9;
+  ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      color: #EBF3F9;
  }
-    ul li {
+  ul li {
   float: left;
+  color: #EBF3F9
 }
 
 ul li a {
-    display: block;
-    background-color: red;
-    color: EBF3F9;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  background-color: #000e47;
+  color: #EBF3F9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #FFB1E2;
+  color: #000e47;
 }
 }
