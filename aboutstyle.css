@@ -1,0 +1,16 @@
+body {
+    background-color: #ffd9ff;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(6, 6, 6);
+}
+
+.new{
+    padding:2%;
+    color:#000e47;
+}
