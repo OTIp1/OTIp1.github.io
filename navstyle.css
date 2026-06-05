@@ -1,11 +1,20 @@
 .nav {
-    color: 000E47;
+  color: 000E47;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: auto;
+  width: 100%;
+  position: absolute;
+
   ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
   color: #EBF3F9;
- }
+  padding: 0px;
+  margin: 0px;
+  }
+
   ul li {
   float: left;
   color: #EBF3F9
@@ -13,11 +22,11 @@
 
 
   ul li a {
-  display: block;
+  display: float;
   background-color: #000e47;
   color: #EBF3F9;
   text-align: center;
-  padding: 14px 16px;
+  padding: clamp(1rem, 4vw, 3rem);
   text-decoration: none;
   }
 
@@ -26,5 +35,3 @@
   color: #000e47;
   }
 }
-
-
