@@ -14,6 +14,7 @@ body {
 }
 
 .img-container {
+    display: flex;
     position: relative;
     width: 50%;
     max-width: 100%;
