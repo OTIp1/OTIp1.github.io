@@ -16,15 +16,20 @@ body {
 .img-container {
     display: flex;
     position: relative;
-    width: 80%;
+    width: 100%;
     max-width: 100%;
-    height: auto;zdszd
+    height: auto;
+    gap: 2%;
 
-    p {
-      margin-left: 2%;
+    p{
+      width: 50%;
     }
 }
-
+.image-stuff{
+  display: block;
+  position: relative;
+  width: 50%;
+}
 .image {
   opacity: 1;
   display: block;
