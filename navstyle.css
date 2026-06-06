@@ -15,4 +15,10 @@ nav a{
 nav a:hover {
   background-color: #FFB1E2;
   color: #000e47;
-  }
+}
+
+nav a.active {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
