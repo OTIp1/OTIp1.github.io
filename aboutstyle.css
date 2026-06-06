@@ -16,9 +16,13 @@ body {
 .img-container {
     display: flex;
     position: relative;
-    width: 50%;
+    width: 80%;
     max-width: 100%;
-    height: auto;
+    height: auto;zdszd
+
+    p {
+      margin-left: 2%;
+    }
 }
 
 .image {
