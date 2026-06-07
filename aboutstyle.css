@@ -1,6 +1,6 @@
 html, body {
   max-width: 100%;
-  overflow-x: clip;
+  overflow-x: clip; /* Stays clipped without breaking 'sticky' positioning */
 }
 body {
   background-color: #ffd9ff;
@@ -93,8 +93,12 @@ body {
     align-items: center;
     font-size: clamp(0.5rem, 2vw, 3rem);
     min-width: 0;
-
     gap: 5%;
+    .logos{
+      display: flex;
+      gap: 5%;
+      align-items: center;
+    }
     .logo {
       display: block;
       align-self: right;
