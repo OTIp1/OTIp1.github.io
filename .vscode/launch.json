@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "file:///Users/LeoStorm/that/BYCED/blogview.html",
+            "request": "launch",
+            "url": "file:///Users/LeoStorm/that/BYCED/blogview.html"
+        }
+    ]
+}

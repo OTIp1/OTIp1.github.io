@@ -21,12 +21,11 @@
     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. </p>
     </div>
     <div class = 'main'>
-
       <div class = 'search-container'>
-        <input type="text" id="blogsearch" placeholder="Search...">
+        <input type="text" onkeyup = "search()" id="blogsearch" placeholder="Search...">
       </div>
-      
-      <article class = 'blog-card' id="blog1">
+      <ul id = 'blog-list' class="blog-list">
+      <li class = 'blog-card'>
         <div class = 'banner'>
           <span class='category'>Category: Voting</span>
         </div>
@@ -41,8 +40,45 @@
           <div class="readmore"><a href='neal.fun'>Read More</a></div>
           </div>
         </div>
-      </div>
+      </li>
+
+      <li class = 'blog-card'>
+        <div class = 'banner'>
+          <span class='category'>Category: Food</span>
+        </div>
+        <div class='content'>
+          <div class="title"><a href = 'neal.fun'>I love breakfast</a></div>
+          <div class="meta">
+            <span class="author">By Orange Storm</span>
+          </div>
+          <div class="blogtext">My name is Orange, pronounced like the cereal. I have an unconditional love of breakfast and I would help it hide a body (even though I'm vegetarian). That's why I DON'T want an Australian ballot, and I nominate Cheerios to be the new mayor.</div>
+          <div class="meta">
+          <span class="date">Oct 31 1984</span>
+          <div class="readmore"><a href='neal.fun'>Read More</a></div>
+          </div>
+        </div>
+      </li>
+
+      <li class = 'blog-card'>
+        <div class = 'banner'>
+          <span class='category'>Category: Languages</span>
+        </div>
+        <div class='content'>
+          <div class="title"><a href = 'neal.fun'>De finibus bonorum et malorum (corrupted version)</a></div>
+          <div class="meta">
+            <span class="author">By Cicero Rosenberg</span>
+          </div>
+          <div class="blogtext">Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</div>
+          <div class="meta">
+          <span class="date">Oct 31 1984</span>
+          <div class="readmore"><a href='neal.fun'>Read More</a></div>
+          </div>
+        </div>
+      </li>
+
+      </ul>
     </div>
     
+  <script src="blogsearch.js"></script>
   </body>
 </html>
