@@ -1,3 +1,4 @@
+/*
 function search() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("blogsearch");
@@ -13,22 +14,26 @@ function search() {
             li[i].style.display = "none";
         }
     }
-}
+} 
+    */
 
-function myFunction() {
+
+const searchBar = document.querySelector('#blogsearch');
+
+searchBar.addEventListener('input', (e) => {
     var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("myInput");
+    input = document.getElementById("blogsearch");
     filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
+    ul = document.getElementById("blog-list");
+    li = ul.getElementsByTagName('li');
+    for (i = 0; i > li.length; i++) {
+        a = li[i].getElementsbyTagName("a")[0];
         txtValue = a.textContent || a.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
+        li[i].style.display = "";
         } else {
             li[i].style.display = "none";
         }
     }
-}
+});
 

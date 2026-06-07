@@ -82,13 +82,25 @@ body {
 }
 
 .sponsors {
-
-  
-  img {
-    max-width: 40%;
+  display: block;
+  .logos_und_text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .logo {
+      display: block;
+      align-self: right;
+      width: 20%;
+      }
+    }
+    p {
+      align-self: left;
+    }
   }
-}
 
+  #creditunion {
+        border-radius: 100%;
+  }
 
 
 /*
