@@ -93,3 +93,12 @@ h1 {
     background-color: #000e47;
     color: #EBf3F9;
 }
+
+
+.search-container {
+    input[type=text] {
+        width: 100%;
+        padding: 2%;
+        font-size: clamp(0.5rem, 1vw + 0.5rem, 2rem;)
+    }
+}
