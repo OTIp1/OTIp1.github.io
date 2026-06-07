@@ -28,24 +28,36 @@ nav .burger {
   display: none;
 }
 
-@media screen and (max-width: 500px) {
-  .nav a:not(:first-child) {display: none;}
+@media screen and (max-width: 600px) {
+  .nav a:not(.active) {display: none;}
   .nav a.burger {
-    float: right;
     display: block;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .nav.responsive {position: relative;}
-  .nav.responsive a.burger {
+    text-align: right;
     position: absolute;
     right: 0;
     top: 0;
   }
-  .nav.responsive a {
+  .nav a{
     float: none;
-    display: block;
+    display: flex;
+    flex-direction: row;
+  }
+  .nav{
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .verticalnav {position: relative;}
+  .verticalnav a.burger {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .verticalnav a {
+    float: none;
+    display: flex;
+    flex-direction: column;
     text-align: left;
   }
 }
