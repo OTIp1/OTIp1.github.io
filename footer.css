@@ -1,0 +1,22 @@
+footer {
+    background-color: #000e47;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer a{
+    color: #FFB1E2;
+    padding: 2%;
+    font-size: 28px;
+}
+
+footer #contact{
+    text-decoration: none;
+    margin-right:auto;
+}
