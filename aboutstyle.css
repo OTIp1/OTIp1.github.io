@@ -1,16 +1,18 @@
+
+
 body {
-    background-color: #ffd9ff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    display: inline-block;
-    position: relative;
+  background-color: #ffd9ff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  display: block;
+  position: relative;
 }
 
 .main{
-    padding:2%;
-    color:#000e47;
+  padding:2%;
+  color:#000e47;
 }
 
 .img-container {
@@ -36,10 +38,10 @@ body {
   display: block;
   position: relative;
   width: 50%;
-  @media screen and (max-width: 485px){
-    width: 100%;
-  }
 }
+@media screen and (max-width: 485px){
+    .image-stuff{width: 100%;}
+  }
 .image {
   opacity: 1;
   display: block;
@@ -69,11 +71,11 @@ body {
 }
 
 .center-text {
-    text-decoration: none;
-    background-color: #FFB1E2;
-    color: #000e47;
-    font-size: 16px;
-    padding: 16px 32px;
+  text-decoration: none;
+  background-color: #FFB1E2;
+  color: #000e47;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 .center-text a{
@@ -83,23 +85,27 @@ body {
 
 .sponsors {
   display: block;
+  height: auto;
   .logos_und_text {
     display: flex;
     align-items: center;
-    gap: 20px;
+    font-size: clamp(0.5rem, 2vw, 3rem);
+    min-width: 0;
+
+    gap: 5%;
     .logo {
       display: block;
       align-self: right;
       width: 20%;
       }
-    }
-    p {
-      align-self: left;
-    }
   }
+  p {
+    align-self: left;
+  }
+}
 
   #creditunion {
-        border-radius: 100%;
+    border-radius: 100%;
   }
 
 
@@ -108,7 +114,7 @@ Things h1 is used for:
 -"About Us"
 */
 h1 {
-    color: rgb(12, 12, 12);
+  color: rgb(12, 12, 12);
 }
 
 /*
@@ -124,18 +130,18 @@ Things h3 is used for:
 -"We will never sell or share your information."
 */
 h3 {
-    font-size: clamp(0.2rem, 0.2vw + 0.5rem, 1.5rem);
-    padding: 0%;
-    margin-top: 0%;
-    text-decoration: none;
-    font-style: italic;
-    color: #000e47;
-    opacity: 0.6;
+  font-size: clamp(0.2rem, 0.2vw + 0.5rem, 1.5rem);
+  padding: 0%;
+  margin-top: 0%;
+  text-decoration: none;
+  font-style: italic;
+  color: #000e47;
+  opacity: 0.6;
 }
 
 .newsletter-form {
-    position: relative;
-    input[type=email] {
+  position: relative;
+  input[type=email] {
     width: 80%;
     padding: 1%;
     margin-top: 2%;
@@ -147,7 +153,7 @@ h3 {
     font-size: 1.2em;
     border-radius: 10px;
   }
-    input[type=submit] {
+  input[type=submit] {
     width: 30%;
     padding: 2%;
     margin-top: 3%;
