@@ -1,5 +1,7 @@
-
-
+html, body {
+  max-width: 100%;
+  overflow-x: clip;
+}
 body {
   background-color: #ffd9ff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
