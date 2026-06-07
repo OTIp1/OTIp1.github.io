@@ -18,7 +18,7 @@ function search() {
     */
 
 
-const searchBar = document.querySelector('#blogsearch');
+const searchBar = document.querySelector("#blogsearch");
 
 searchBar.addEventListener('input', (e) => {
     var input, filter, ul, li, a, i, txtValue;
@@ -26,8 +26,9 @@ searchBar.addEventListener('input', (e) => {
     filter = input.value.toUpperCase();
     ul = document.getElementById("blog-list");
     li = ul.getElementsByTagName('li');
-    for (i = 0; i > li.length; i++) {
-        a = li[i].getElementsbyTagName("a")[0];
+    
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
         txtValue = a.textContent || a.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
         li[i].style.display = "";
@@ -35,5 +36,6 @@ searchBar.addEventListener('input', (e) => {
             li[i].style.display = "none";
         }
     }
+
 });
 
