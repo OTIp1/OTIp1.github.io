@@ -30,6 +30,7 @@ h1 {
     display: flex;
     flex-direction: column;
     background-color: #ffd9ff;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
 }
 
 .banner {
