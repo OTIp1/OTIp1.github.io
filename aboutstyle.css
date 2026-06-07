@@ -20,15 +20,25 @@ body {
     max-width: 100%;
     height: auto;
     gap: 2%;
+    @media screen and (max-width: 485px){
+      display: block;  
+    }
 
     p{
       width: 50%;
+      font-size: clamp(0.65rem, 2vw, 3rem);
+      @media screen and (max-width: 485px){
+      width: 100%
+    }
     }
 }
 .image-stuff{
   display: block;
   position: relative;
   width: 50%;
+  @media screen and (max-width: 485px){
+    width: 100%;
+  }
 }
 .image {
   opacity: 1;
