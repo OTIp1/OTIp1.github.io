@@ -81,6 +81,16 @@ body {
   color:#000e47
 }
 
+.sponsors {
+
+  
+  img {
+    max-width: 40%;
+  }
+}
+
+
+
 /*
 Things h1 is used for:
 -"About Us"
