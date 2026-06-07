@@ -21,22 +21,32 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     padding: 2%;
+    background-color: #000e47;
+    color: #000e47;
 }
 
 .blog-card {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    background-color: #ffd9ff;
 }
 
 .banner {
     position: relative;
     width: 100%;
     overflow: hidden;
+    background-color: #fba1fb;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    padding: 0.5rem;
+}
+
+.category {
+    float: left;
+    padding: 0.5rem;
 }
