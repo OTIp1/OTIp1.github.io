@@ -1,5 +1,6 @@
 nav{
   background-color: #000e47;
+  overflow: hidden;
   display:block;
   align-items:center;
   padding: 15px;
@@ -21,4 +22,30 @@ nav a.active {
   pointer-events: none;
   cursor: default;
   opacity: 0.6;
+}
+
+nav .burger {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.burger {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive a.burger {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
