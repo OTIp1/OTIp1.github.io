@@ -15,13 +15,16 @@ h1 {
     color:#000e47;
 }
 
+.blog-display {
+    background-color: #000e47;
+}
 
 .blog-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: minmax(100%,1000px);
+    justify-self: center;
     gap: 2rem;
     padding: 2%;
-    background-color: #000e47;
     color: #000e47;
 }
 
