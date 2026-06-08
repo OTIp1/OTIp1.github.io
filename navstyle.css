@@ -61,3 +61,7 @@ nav .burger {
     text-align: left;
   }
 }
+
+.fa, .fas, .fab, .fa-solid, .fa-brands {
+    font-family: "Font Awesome 7 Free" !important;
+}
