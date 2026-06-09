@@ -20,3 +20,7 @@ footer #contact{
     text-decoration: none;
     margin-right:auto;
 }
+
+.fa, .fas, .fab, .fa-solid, .fa-brands {
+    font-family: "Font Awesome 7 Free" !important;
+}
