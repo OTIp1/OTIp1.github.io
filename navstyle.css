@@ -60,6 +60,9 @@ nav .burger {
     flex-direction: column;
     text-align: left;
   }
+  .verticalnav #home{
+    display: none;
+  }
 }
 
 .fa, .fas, .fab, .fa-solid, .fa-brands {
