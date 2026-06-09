@@ -21,6 +21,10 @@ footer #contact{
     margin-right:auto;
 }
 
+footer #contact:hover{
+    color: #f189cb;
+}
+
 .fa-brands {
     font-family: "Font Awesome 7 Brands" !important;
 }
