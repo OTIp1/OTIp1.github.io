@@ -95,18 +95,35 @@ body {
     min-width: 0;
     gap: 5%;
     .logos{
-      display: flex;
-      gap: 5%;
-      align-items: center;
+    display: flex;
+    gap: 5%;
+    align-items: center;
     }
     .logo {
       display: block;
       align-self: right;
-      width: 20%;
+      width: 50%;
       }
   }
   p {
     align-self: left;
+  }
+}
+
+@media screen and (max-width:400px){
+  .logos_und_text{
+    display: flex;
+    p{
+      width: 100%;
+    }
+  }
+  .logos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo{
+    width:100%;
   }
 }
 
