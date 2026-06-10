@@ -41,9 +41,6 @@ body {
   position: relative;
   width: 50%;
 }
-@media screen and (max-width: 485px){
-    .image-stuff{width: 100%;}
-  }
 .image {
   opacity: 1;
   display: block;
@@ -84,7 +81,15 @@ body {
   text-decoration: none;
   color:#000e47
 }
-
+@media screen and (max-width: 485px){
+    .image-stuff{width: 100%;}
+    .image{
+      opacity:0.3;
+    }
+    .center{
+      opacity: 1;
+    }
+  }
 .sponsors {
   display: block;
   height: auto;
