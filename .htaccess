@@ -1,0 +1,12 @@
+#mod rewrite starts here
+
+RewriteEngine on
+
+#only run it if the file name is not the same as the name of the folder (-d is folder)
+RewriteCond%{REQUEST_FILENAME} !-d
+
+#Run if the file name exists w/ html extension (and don't if not)
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+#grab entire URL (regex) and grab result ($) and then go to the file that is called 'the result' + '.html'. not-case-sensitive when fetching URL (NC), only apply above rules to this specific rule (L)
+RewriteRule ^(.*) $1.html [NC,L]
