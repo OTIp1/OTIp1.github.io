@@ -30,7 +30,7 @@ body {
 
     p{
       width: 50%;
-      font-size: clamp(0.65rem, 2vw, 3rem);
+      font-size: clamp(0.65rem, 4vw, 3rem);
       @media screen and (max-width: 485px){
       width: 100%
     }
@@ -96,7 +96,7 @@ body {
   .logos_und_text {
     display: flex;
     align-items: center;
-    font-size: clamp(0.7rem, 2vw, 3rem);
+    font-size: clamp(0.65rem, 3.5vw, 3rem);
     min-width: 0;
     gap: 5%;
     .logos{
