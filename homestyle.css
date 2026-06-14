@@ -27,3 +27,37 @@ h1 {
 img{
     width:50%
 }
+
+input[type=email], input[type=tel] {
+    width: 80%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+    border-style: groove;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    border-radius: 10px;
+  }
+
+
+input[type=submit] {
+    width: 30%;
+    padding: 2%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: clamp(0.65rem, 3.5vw, 3rem);
+    color: #EBF3F9;
+    background-color: #000e47;
+    border-style: double;
+    border-radius: 5px;
+    border-color: #EBF3F9;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+    a {
+          align-self: center;
+    }
+  }
